@@ -1,0 +1,76 @@
+config BR2_PACKAGE_LOHIT
+	bool "lohit fonts"
+	help
+	  The lohit fonts are a font family designed to cover Indic 
+	  scripts and released by Red Hat.
+	  From September 2011, they were licensed under the OFL.
+
+	  https://pagure.io/lohit
+
+if BR2_PACKAGE_LOHIT
+
+config BR2_PACKAGE_LOHIT_ASSAMESE
+	bool "assamese fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_BENGALI
+	bool "bengali fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_GUJARATI
+	bool "gujarati fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_HINDI
+	bool "hindi fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_KANNADA
+	bool "kannada fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_KASHMIRI
+	bool "kashmiri of devanagari fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_KONKANI
+	bool "konkani fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_MAITHILI
+	bool "maithili fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_MALAYALAM
+	bool "malayalam fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_MARATHI
+	bool "marathi fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_NEPALI
+	bool "nepali fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_ORIYA
+	bool "oriya fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_PUNJABI
+	bool "punjabi fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_SINDHI
+	bool "sindhi of devanagari fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_TAMIL
+	bool "tamil fonts"
+	default n
+
+config BR2_PACKAGE_LOHIT_TELUGU
+	bool "telugu fonts"
+	default n
+
+endif
