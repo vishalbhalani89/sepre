@@ -121,7 +121,7 @@ define LOHIT_INSTALL_TARGET_CMDS
 	mkdir -p $(TARGET_DIR)/usr/share/fonts/lohit/
 	for i in $(LOHIT_FONTS_INSTALL) ; do \
 		$(INSTALL) -m 0644 $(@D)/$$i \
-			$(TARGET_DIR)/usr/share/fonts/lohit/ || exit 1 ; \
+			$(TARGET_DIR)/usr/lib/fonts/ || exit 1 ; \
 	done
 	$(LOHIT_FONTCONFIG_CONF_INSTALL_CMDS)
 endef
