@@ -118,7 +118,7 @@ endef
 endif
 
 define LOHIT_INSTALL_TARGET_CMDS
-	mkdir -p $(TARGET_DIR)/usr/share/fonts/lohit/
+	mkdir -p $(TARGET_DIR)/usr/lib/fonts/
 	for i in $(LOHIT_FONTS_INSTALL) ; do \
 		$(INSTALL) -m 0644 $(@D)/$$i \
 			$(TARGET_DIR)/usr/lib/fonts/ || exit 1 ; \
